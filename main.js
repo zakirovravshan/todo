@@ -19,7 +19,6 @@ record.lang = 'uz-UZ'
 
 elrecord.addEventListener('click', function () {
     record.start();
-    document.body.record.style.backgroundColor = 'red';
  })
  record.onresult = function (evt) {
 	elinp.value = evt.results[0][0].transcript;}
