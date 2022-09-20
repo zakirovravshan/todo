@@ -1,0 +1,86 @@
+body{
+    padding: 100px;
+}
+form{
+    margin-top: 300px;
+    width: 100%;
+    max-width: 650px;
+    border: 1px solid black;
+    padding:  20px 20px 100px 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #2470F5;
+}
+
+.form__box {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.inp {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.record {
+    display: block;
+    position: relative;
+    padding: 10px 10px 10px 15px;
+    width: 700px;
+    margin-left: auto;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.record::before{
+    position: absolute;
+    width: 30px;
+    height:30px;
+    top: 5px;
+    left: 10px;
+    background-image: url("./images/microphone.png");
+    background-size: 100%;
+    content: "";
+    z-index: 3; 
+}
+
+.submit {
+    width: 25%;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 18px;
+    font-weight: 400;
+}
+.list{
+    padding: 40px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 550px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+}
